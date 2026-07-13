@@ -1,0 +1,63 @@
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #2d9cdb;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+}
+
+.section {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.section h2 {
+  margin-top: 0;
+}
+
+.product-card,
+.cart-item {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 12px 0;
+}
+
+.product-card:last-child,
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+input,
+select {
+  padding: 8px;
+  width: 100%;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.error {
+  color: #b00020;
+}
